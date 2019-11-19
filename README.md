@@ -10,7 +10,7 @@ To use a Custom Connector, put Eurostat API.mez file in the [Documents]\Power BI
 
 ### How to use
 
-Power BI uses star schema model to connect datasets. Data returned from Eurostat’s API have many dimensions ( Year, Geo, Sex, …). The connector splits every dimension into separate table and create common id which connects all tables. There are three steps necessary to load data from the Eurostat’s API to Power Bi:
+Power BI uses star schema model to connect datasets. Data returned from Eurostat’s API have many dimensions ( Year, Geo, Sex, …). The connector splits every dimension into separate tables and create common id which connects all tables. There are three steps necessary to load data from the Eurostat’s API to Power Bi:
 1)	Find a dataset
 2)	Create an URL
 3)	Load data 
