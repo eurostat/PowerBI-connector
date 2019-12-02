@@ -78,16 +78,18 @@ The output will be like this
 
 #### Step 3. Loading data
 
-The last step is paste in to the URL field of the connector the URL created in the second step.
+The URL generated in the Quey Builder (step 2) is the only paramater which has to be passed to the connector. The connector has only one field - it is enough to paste the URL into this field.
 
 <table>
 <header>
-<td align="centre">Query generator - output</td>
+<td align="centre">Connector</td>
 </header>
 <tr>
-<td><kbd><a href="https://ec.europa.eu/eurostat/data/database"><img src="docs/connector_url.png" alt="Query generator - output" width="600"></a></kbd></td>
+<td><kbd><a href="https://ec.europa.eu/eurostat/data/database"><img src="docs/connector_url.png" alt="Connector" width="600"></a></kbd></td>
 </tr>
 </table>
+
+If the URL entered into the connectro is properly formated, Power BI will show the Navigator window with all dimensions/tables. It might be used to preview data which will be transfered from Eurostat.
 
 <table>
 <header>
