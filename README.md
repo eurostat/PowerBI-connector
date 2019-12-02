@@ -32,5 +32,6 @@ Each dataset has its unique code (like nama_10_gdp). This code is necessary in t
 
 #### Step 2. Creating an URL
 
+In order to get data from Eurostat, connector needs properly formated  URL to Eurostat's API. The best way to create this URL is to use [Query Builder](https://ec.europa.eu/eurostat/web/json-and-unicode-web-services/getting-started/query-builder).
 
 #### Step 3. Loading data
