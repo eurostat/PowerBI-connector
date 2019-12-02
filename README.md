@@ -17,14 +17,18 @@ Power BI uses star schema model to connect datasets. Data returned from Eurostat
 
 #### Step 1. Finding a dataset
 
+Datasets can be found in [Eurostat’s database](https://ec.europa.eu/eurostat/data/database).
+
 <table>
 <header>
 <td align="centre">Eurostat's database</td>
 </header>
 <tr>
-<td><kbd><a href="https://ec.europa.eu/eurostat/data/database"><img src="docs/eurostat_database.png" alt="Eurostat's database" width="500"></a></kbd></td>
+<td><kbd><a href="https://ec.europa.eu/eurostat/data/database"><img src="docs/eurostat_database.png" alt="Eurostat's database" width="800"></a></kbd></td>
 </tr>
 </table>
+
+Each dataset has its unique code (like nama_10_gdp). This code is necessary in the next step.
 
 #### Step 2. Creating an URL
 
