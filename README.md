@@ -19,10 +19,10 @@ Power BI uses star schema model to connect datasets. Data returned from Eurostat
 
 <table>
 <header>
-<td align="centre">Example 1</td>
+<td align="centre">Eurostat's database</td>
 </header>
 <tr>
-<td><kbd><a href="https://ec.europa.eu/eurostat/data/database"><img src="docs/eurostat_database.png" alt="Eurostat's database" width="300"></a></kbd></td>
+<td><kbd><a href="https://ec.europa.eu/eurostat/data/database"><img src="docs/eurostat_database.png" alt="Eurostat's database" width="500"></a></kbd></td>
 </tr>
 </table>
 
