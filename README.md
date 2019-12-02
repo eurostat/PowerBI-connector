@@ -39,7 +39,40 @@ In order to get data from Eurostat, connector needs properly formated  URL to Eu
 <td align="centre">Query builder</td>
 </header>
 <tr>
-<td><kbd><a href="https://ec.europa.eu/eurostat/data/database"><img src="docs/query_builder.png" alt="Query builder" width="800"></a></kbd></td>
+<td><kbd><a href="https://ec.europa.eu/eurostat/data/database"><img src="docs/query_builder.png" alt="Query builder" width="400"></a></kbd></td>
+</tr>
+</table>
+
+Building an URL is quite easy – the only caveat is that there is the limit of 50 categories. If this limit is exceed, no data will be returned. Connector will show the error:
+
+<table>
+<header>
+<td align="centre">Error</td>
+</header>
+<tr>
+<td><kbd><a href="https://ec.europa.eu/eurostat/data/database"><img src="docs/PBI_error.png" alt="Error" width="800"></a></kbd></td>
+</tr>
+</table>
+
+
+
+<table>
+<header>
+<td align="centre">Query generator</td>
+</header>
+<tr>
+<td><kbd><a href="https://ec.europa.eu/eurostat/data/database"><img src="docs/query_builder2.png" alt="Query generator" width="800"></a></kbd></td>
+</tr>
+</table>
+
+The output will be like this
+
+<table>
+<header>
+<td align="centre">Query generator - output</td>
+</header>
+<tr>
+<td><kbd><a href="https://ec.europa.eu/eurostat/data/database"><img src="docs/query_builder3.png" alt="Query generator - output" width="800"></a></kbd></td>
 </tr>
 </table>
 
