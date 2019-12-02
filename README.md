@@ -61,7 +61,7 @@ Building an URL is quite easy – the only caveat is that there is the limit of 
 <td align="centre">Query generator</td>
 </header>
 <tr>
-<td><kbd><a href="https://ec.europa.eu/eurostat/data/database"><img src="docs/query_builder2.png" alt="Query generator" width="800"></a></kbd></td>
+<td><kbd><a href="https://ec.europa.eu/eurostat/data/database"><img src="docs/query_builder2.png" alt="Query generator" width="600"></a></kbd></td>
 </tr>
 </table>
 
@@ -72,8 +72,61 @@ The output will be like this
 <td align="centre">Query generator - output</td>
 </header>
 <tr>
-<td><kbd><a href="https://ec.europa.eu/eurostat/data/database"><img src="docs/query_builder3.png" alt="Query generator - output" width="800"></a></kbd></td>
+<td><kbd><a href="https://ec.europa.eu/eurostat/data/database"><img src="docs/query_builder3.png" alt="Query generator - output" width="400"></a></kbd></td>
 </tr>
 </table>
 
 #### Step 3. Loading data
+
+The last step is paste in to the URL field of the connector the URL created in the second step.
+
+<table>
+<header>
+<td align="centre">Query generator - output</td>
+</header>
+<tr>
+<td><kbd><a href="https://ec.europa.eu/eurostat/data/database"><img src="docs/connector_url.png" alt="Query generator - output" width="600"></a></kbd></td>
+</tr>
+</table>
+
+<table>
+<header>
+<td align="centre">Query generator - output</td>
+</header>
+<tr>
+<td><kbd><a href="https://ec.europa.eu/eurostat/data/database"><img src="docs/connector_nav.png" alt="Query generator - output" width="600"></a></kbd></td>
+</tr>
+</table>
+
+Connector creates tables for all dimensions. Two additional tables are created : _Relations and Information._ The table _Relations_ store relations between all the dimensions (tables). Table Information shows information about query
+
+<table>
+<header>
+<td align="centre">Query generator - output</td>
+</header>
+<tr>
+<td><kbd><a href="https://ec.europa.eu/eurostat/data/database"><img src="docs/table_info.png" alt="Query generator - output" width="300"></a></kbd></td>
+</tr>
+</table>
+
+One relation must be created manually – between tables   _Relations_ and _values_.
+
+<table>
+<header>
+<td align="centre">Query generator - output</td>
+</header>
+<tr>
+<td><kbd><a href="https://ec.europa.eu/eurostat/data/database"><img src="docs/create_relationship.png" alt="Query generator - output" width="300"></a></kbd></td>
+</tr>
+</table>
+
+After that the model should look like this
+
+<table>
+<header>
+<td align="centre">Query generator - output</td>
+</header>
+<tr>
+<td><kbd><a href="https://ec.europa.eu/eurostat/data/database"><img src="docs/model.png" alt="Query generator - output" width="300"></a></kbd></td>
+</tr>
+</table>
