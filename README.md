@@ -54,7 +54,7 @@ Building an URL is quite an easy task. The process in explaind well on the Euros
 </tr>
 </table>
 
-The only caveat is that there is a limit to the number ofcategories - 50. If this limit is exceeded, no data is returned. The Connector will show this error:
+The only caveat is that there is a limit to the number of categories - 50. If this limit is exceeded, no data is returned. The Connector will show this error:
 
 <table>
 <header>
@@ -89,7 +89,7 @@ The URL generated in the Quey Builder (step 2) is the only paramater which has t
 </tr>
 </table>
 
-If the URL entered into the connector is properly formated, Power BI will show the Navigator window with all dimensions/tables. It might be used to preview data which before transferring it from Eurostat.
+If the URL entered into the connector is properly formated, Power BI will show the Navigator window with all dimensions/tables. It might be used to preview data before transferring it from Eurostat.
 
 <table>
 <header>
@@ -100,7 +100,7 @@ If the URL entered into the connector is properly formated, Power BI will show t
 </tr>
 </table>
 
-Connector creates tables for all dimensions. Two additional tables are created : _Relations and Information._ The table _Relations_ store relations between all dimensions(tables). The table _Information_ shows information about query.
+The Connector creates tables for all dimensions. Two additional tables are created : _Relations_ and _Information._ The table _Relations_ store relations between all dimensions(tables). The table _Information_ shows information about query.
 
 <table>
 <header>
