@@ -1,6 +1,8 @@
-# Eurostat-API-custom-connector
-### Power BI custom connector for Eurostat API
+Eurostat-API-custom-connector
+=============================
 
+Power BI custom connector for _Eurostat_ API.
+---
 
 The connector delivered by this project allows for access to [Eurostat’s REST API](https://ec.europa.eu/eurostat/web/json-and-unicode-web-services/getting-started/rest-request), which delivers data in JSON-stat format. Although it is possible to load data in JSON-stat format to Power BI, it is not straightforward ([you can try to do it using this guide](https://eriksvensen.wordpress.com/2019/01/09/guide-how-to-import-data-from-eurostat-directly-into-powerbi) )
 
@@ -131,4 +133,15 @@ The final model should look like this:
 <tr>
 <td><kbd><a href="https://ec.europa.eu/eurostat/data/database"><img src="docs/model.png" alt="Model" width="600"></a></kbd></td>
 </tr>
+</table>
+
+### About
+
+<table align="center">
+    <tr> <td align="left"><i>status</i></td> <td align="left">since 2020</td></tr> 
+    <tr> <td align="left"><i>contributors</i></td> 
+    <td align="left" valign="middle">
+<a href="https://github.com/oloski"><img src="https://github.com/oloski.png" width="40"></a>
+</td> </tr> 
+    <tr> <td align="left"><i>license</i></td> <td align="left"><a href="https://joinup.ec.europa.eu/sites/default/files/eupl1.1.-licence-en_0.pdfEUPL">EUPL</a> </td> </tr> 
 </table>
