@@ -117,7 +117,7 @@ One relation – between tables   _Relations_ and _values_ - must be created man
 
 <table>
 <header>
-<td align="centre">Cretae reltionship</td>
+<td align="centre">Create relationship</td>
 </header>
 <tr>
 <td><kbd><a href="https://ec.europa.eu/eurostat/data/database"><img src="docs/create_relationship.png" alt="Cretae reltionship" width="600"></a></kbd></td>
